@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+	font-family: Courier New, Arial, sans-serif;
+}
+
+body a {
+	color: #272822;
+}
+
+body a:hover {
+	color: #000;
+	font-weight: 500;
+}
+
+/* navigation bar elements */
+.nav {
+	background: #272822;
+	padding: 10px 0 10px 0;
+}
+
+#logo {
+	float: left;
+	padding: 0 0 0 20px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #EEEEEE;
+}
+
+.menu {
+	text-align: right;
+}
+
+.menu ul {
+	margin: 0 10px 0 0;
+}
+
+.menu ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px 0 0;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: #EEEEEE;
+}
+
+.menu ul li a:hover {
+	color: #fff;
+}
+
+/* main content */
+.main {
+	text-align: center;
+}
+
+.row {
+	width: 80%;
+	margin: 0 10% 0 10%;
+}
+
+.col {
+	width: 50%;
+}
+
+.col1 {
+	float: left;
+}
+
+.col2 {
+	float: right;
+}
+
+.blg {
+	margin: 1.6%;
+}
+
+/* footer */
+.footer {
+	text-align: center;
+}
+
+/*css for blog.html page */
+.realblog {
+	margin: auto;
+	width: 70%;
+}
+
+.blg_content {
+	text-align: left;
+}
